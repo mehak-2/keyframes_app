@@ -1,0 +1,240 @@
+/* Elements Styling */
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 0.5rem; 
+  padding: 0.5rem;
+  border-bottom: 2px dotted black;
+  background-color: #ccc;
+}
+
+.category-button {
+  background-color: #d1d5db;
+  border: 1px solid black;
+  text-align: center;
+  padding: 0.25rem 2rem;
+  border-radius: 0.75rem;
+  color: rgb(79, 78, 78);
+  margin: 0.25rem; 
+}
+
+.category-button.selected {
+  background-color: #1560f5;
+  color: white;
+  border: 2px solid white;
+}
+
+.element-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 2rem;
+  background-color: #ccc;
+}
+
+.element-button {
+  background-color: #fbfbfb;
+  border: 1px solid black;
+  text-align: center;
+  padding: 0.25rem 2rem;
+  border-radius: 0.75rem;
+}
+
+.element-button.selected {
+  background-color: #3b82f6;
+  color: rgb(249, 248, 248);
+  border: 2px solid black;
+}
+
+.main-content {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.left-section {
+  flex: 4;
+}
+
+.right-section {
+  flex: 7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.animation-section {
+  width: 200px;
+  height: 100px;
+  font-size: 50px;
+  margin-top: 20px;
+  display: flex;
+  margin-right: 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.textareas {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.textarea {
+  width: 90%;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  resize: none;
+}
+
+.code-heading {
+  position: relative;
+}
+
+.textareas h1 {
+ position: absolute;
+ margin-top: -10px;
+ font-size: 20px;
+}
+
+.textareas .fa-times {
+  position: absolute;
+  margin-top: -10px;
+  right: 0; 
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* left-part styling */
+.heading {
+  font-size: 15px;
+  text-decoration: solid;
+  text-justify: auto;
+}
+.iteration-count p button {
+  margin: 0 5px; 
+  padding: 5px 10px; 
+  background-color: #f1f1f1;
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  cursor: pointer; 
+}
+
+.iteration-count p input {
+  margin: 0 5px; 
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+}
+.duration p button {
+  margin: 0 5px; 
+  padding: 5px 10px; 
+  background-color: #f1f1f1;
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  cursor: pointer; 
+}
+
+.duration p input {
+  margin: 0 5px; 
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+}
+
+.delay p button {
+  margin: 0 5px; 
+  padding: 5px 10px; 
+  background-color: #f1f1f1;
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  cursor: pointer; 
+}
+
+.delay p input {
+  margin: 0 5px; 
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+}
+
+.timing {
+  display: flex;
+  align-items: center; 
+}
+
+.timing p {
+  margin-right: 10px; 
+}
+
+.timing select {
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+}
+.direction {
+  display: flex;
+  align-items: center; 
+}
+
+.direction p {
+  margin-right: 10px; 
+}
+
+.direction select {
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+}
+.fill-mode {
+  display: flex;
+  align-items: center; 
+}
+
+.fill-mode p {
+  margin-right: 10px; 
+}
+
+.fill-mode select {
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+}
+
+
+.range-slider-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.range-value {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.range-slider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.range-input {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+/* run-button styling */
+.run-btn {
+  width: 80px;
+  margin-top: 200px;
+  margin-left: -100px;
+}
